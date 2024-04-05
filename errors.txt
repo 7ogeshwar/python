@@ -1,0 +1,70 @@
+Exception: Base class for all built-in exceptions.
+StopIteration: Raised by iterators to signal the end of the iteration.
+StopAsyncIteration: Raised by asynchronous iterators to signal the end of the iteration.
+ArithmeticError: Base class for arithmetic errors.
+FloatingPointError: Raised when a floating-point operation fails.
+OverflowError: Raised when an arithmetic operation exceeds the limits of its data type.
+ZeroDivisionError: Raised when division or modulo by zero occurs.
+AssertionError: Raised when an assert statement fails.
+AttributeError: Raised when an attribute reference or assignment fails.
+BufferError: Raised when a buffer-related operation fails.
+EOFError: Raised when input() reaches the end of file (EOF) condition.
+ImportError: Raised when an import statement fails to find the module definition.
+ModuleNotFoundError: A subclass of ImportError raised when a module could not be found.
+LookupError: Base class for lookup-related errors.
+IndexError: Raised when a sequence subscript is out of range.
+KeyError: Raised when a dictionary key is not found.
+MemoryError: Raised when an operation runs out of memory.
+NameError: Raised when a local or global name is not found.
+UnboundLocalError: Raised when trying to access a local variable before it has been assigned a value.
+OSError: Base class for I/O-related errors.
+BlockingIOError: Raised when an operation would block on an object that has non-blocking operations.
+ChildProcessError: Raised when an error occurs in the child process during subprocess operations.
+ConnectionError: Base class for connection-related errors.
+BrokenPipeError: Raised when a pipe connection is broken.
+ConnectionAbortedError: Raised when a connection attempt is aborted by the peer.
+ConnectionRefusedError: Raised when a connection attempt is refused by the peer.
+ConnectionResetError: Raised when a connection is reset by the peer.
+FileExistsError: Raised when trying to create a file or directory that already exists.
+FileNotFoundError: Raised when a file or directory is requested but cannot be found.
+InterruptedError: Raised when an operation is interrupted by a signal.
+IsADirectoryError: Raised when a directory operation is requested but the object is a file.
+NotADirectoryError: Raised when a directory operation is requested but the object is not a directory.
+PermissionError: Raised when trying to run an operation without the adequate permissions.
+ProcessLookupError: Raised when a given process does not exist.
+TimeoutError: Raised when an operation exceeds the specified timeout.
+ReferenceError: Raised when a weak reference proxy is used to access an object that has been garbage collected.
+RuntimeError: Raised when an error occurs that does not belong to any specific category.
+NotImplementedError: Raised when an abstract method that must be implemented in a subclass is not actually implemented.
+RecursionError: Raised when the maximum recursion depth is exceeded.
+SyntaxError: Raised when the syntax of a Python script is incorrect.
+IndentationError: Base class for indentation-related syntax errors.
+TabError: Raised when the indentation contains inconsistent tabs and spaces.
+SystemError: Raised when an internal error in the Python interpreter is detected.
+TypeError: Raised when an operation or function is applied to an object of an inappropriate type.
+ValueError: Raised when an operation or function receives an argument of the correct type but an inappropriate value.
+UnicodeError: Base class for Unicode-related errors.
+UnicodeEncodeError: Raised when a Unicode-related encoding error occurs.
+UnicodeDecodeError: Raised when a Unicode-related decoding error occurs.
+UnicodeTranslateError: Raised when a Unicode-related translation error occurs.
+Warning: Base class for warning-related exceptions.
+DeprecationWarning: Raised for features that are deprecated and will be removed in future versions.
+PendingDeprecationWarning: Raised for features that are deprecated but are still available in the current release.
+SyntaxWarning: Raised for dubious syntax.
+RuntimeWarning: Raised for dubious runtime behavior.
+FutureWarning: Raised for warnings about constructs that will change semantically in the future.
+ImportWarning: Raised for warnings about probable mistakes in module imports.
+UnicodeWarning: Raised for warnings related to Unicode issues.
+BytesWarning: Raised for warnings related to bytes and bytearray.
+ResourceWarning: Raised for resource usage warnings (e.g., unclosed file handles).
+GeneratorExit: Raised when a generator's close() method is called.
+KeyboardInterrupt: Raised when the user interrupts the execution (usually by pressing Ctrl+C).
+SystemExit: Raised by the sys.exit() function to exit from the Python interpreter.
+EnvironmentError: Base class for exceptions that can occur outside the Python system (such as operating system errors).
+IOError: Deprecated alias of OSError.
+WindowsError: Deprecated alias of OSError on Windows.
+BlockingIOError: Raised when an operation would block on an object that has non-blocking operations.
+ChildProcessError: Raised when an error occurs in the child process during subprocess operations.
+ConnectionError: Base class for connection-related errors.
+BrokenPipeError: Raised when a pipe connection is broken.
+ConnectionAbortedError: Raised when a connection attempt is aborted by the peer.
